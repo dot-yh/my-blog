@@ -1,10 +1,10 @@
 import { Link } from "gatsby";
 import React from "react";
 
-const IndexPage = () => {
+function TestPage() {
   return (
     <main>
-      <title>Home Page</title>
+      <title>테스트</title>
 
       <div style={{ display: "flex", gap: 10 }}>
         <Link to="/">홈</Link>
@@ -13,9 +13,8 @@ const IndexPage = () => {
         <Link to="/test-space">테스트-스페이스</Link>
       </div>
 
-      <h1>Home Page</h1>
+      <h1>테스트 페이지 입니다.</h1>
     </main>
   );
-};
-
-export default IndexPage;
+}
+export default TestPage;
